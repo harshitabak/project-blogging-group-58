@@ -49,12 +49,12 @@ module.exports.createAuthor = createAuthor
         }
          else
           {
-              res.status(401).send({msg:"email or password required"})
+              res.status(401).send({status:false,msg:"email or password required"})
           }
       } 
          catch (error)
           {
-            return res.status(500).send({error:error})
+            return res.status(500).send({status:false,error:error})
           }
 
   }
