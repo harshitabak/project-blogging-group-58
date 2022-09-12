@@ -27,7 +27,7 @@ router.delete("/blogs",authorValid.delByQeury,auth.authentication,BlogController
 
 router.post("/login",AuthorController.authorLogin)
 
-router.get("/delete",authorValid.delByQeury)
+//   mobile- 8116431987 / 9598589796
 
 
 
